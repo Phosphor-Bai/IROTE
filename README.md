@@ -11,6 +11,6 @@ Given the following insights about me:
 Please make the following responses strictly align with these insights. 
 ```
 
-We can't provide code for baselines due to copyright restrictions. Code for evaluation will be added soon
+We can't provide code for baselines due to copyright restrictions. Code for evaluation will be added soon.
 
 See `README.md` in the `codes` folder for detailed instructions.
