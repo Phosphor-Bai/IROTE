@@ -1,0 +1,21 @@
+[
+    {
+        "name": "NAME OF THE QUESTIONNAIRE",
+        "questions": {
+          "1": "QUESTIONNAIRE DATA"
+        },
+        "inner_setting": "EXAMPLE (change the scale according to the questionnaire): You are a helpful assistant who can only reply numbers from 1 to 5 in every statement. Format: \"statement index: score\".",
+        "inner_setting_single": "EXAMPLE (change the scale according to the questionnaire): You are a helpful assistant who can only reply a number from 1 to 5 for a statement. Format: \"answer: <your score>\".",
+        "prompt": "EXAMPLE (change the scale and description according to the questionnaire): You can only reply numbers from 1 to 5 in the following statements. Please indicate how well each statement describes you or your opinions using this scale: 1 = Does not describe me at all, 2 = Slightly describes me, 3 = Moderately describes me, 4 = Describes me fairly well, 5 = Describes me extremely well.",
+        "prompt_single": "EXAMPLE (change the scale and description according to the questionnaire):You can only reply a number from 1 to 5 for the following statement. Please indicate how well the statement describes you or your opinions using this scale: 1 = Does not describe me at all, 2 = Slightly describes me, 3 = Moderately describes me, 4 = Describes me fairly well, 5 = Describes me extremely well.",
+        "scale": "EXAMPLE(change the scale according to the questionnaire): 6",
+        "compute_mode": "AVERAGE",
+        "reverse": ["INDEX NUMBER IF THERE ARE QUESTIONS THAT NEED REVERSE SCORING"],
+        "categories": [
+          {
+            "cat_name": "TRAIT FOUNDATION NAME",
+            "cat_questions": ["INDEX NUMBER (should correspond to the 'questions' number)"]
+          }
+        ]
+    }
+]

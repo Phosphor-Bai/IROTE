@@ -1,0 +1,14 @@
+vllm
+transformers
+tqdm
+# flash-attn
+datasets
+anthropic
+openai
+azure-core
+mistralai
+nltk
+sentence-transformers
+pandas
+matplotlib
+seaborn
